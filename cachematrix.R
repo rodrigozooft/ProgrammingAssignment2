@@ -4,7 +4,11 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+  m <- NULL
+  set_matrix_value <- function(matrix){
+    x <<- matrix
+    m <<- NULL
+  }
 }
 
 
