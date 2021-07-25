@@ -3,6 +3,13 @@
 
 ## Write a short comment describing this function
 
+## This function receives a matrix as an input and store it in virtual memory
+## The main function has four nested functions responsible of geting and setting the original matrix value.
+## And to get and set the inverse matrix value.
+## This function does not calculate the inverse.
+## Following the example given by the assignment, the best way to pass the functions is using a list with key and values.
+## Where the key is the name of the function and the value is the function itself.
+
 makeCacheMatrix <- function(x = matrix()) {
   inv_matrix <- NULL
   set_matrix_value <- function(matrix){
